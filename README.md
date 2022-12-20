@@ -28,5 +28,10 @@ int main(void)
 cc -Wall -Wextra -Werror name_of_file.c libftprinft.a
 ./a.out
 ```
+---
+### **Makefile targets**
+* `make` or `make all` - Compiles the program.
+* `make clean` - Cleans all object files.
+* `make fclean` - Cleans all object files, _client_ and _server_.
 ## Disclaimer
 > At [42School](https://en.wikipedia.org/wiki/42_(school)), almost every project must be written in accordance to the [Norm](./extras/en_norm.pdf), the schools' coding standard. As a result, the implementation of certain parts may appear strange and for sure had room for improvement.
