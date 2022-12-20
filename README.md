@@ -1,12 +1,11 @@
 # **ft_printf (Cursus from 42 Porto)**
 ## **Grade: 100/100**
 ---
-**Summary:**
+### **Summary:**
 
 In this project I had to develop a clone of the standard printf function in C.
 
-**Installing and running the project:**
-
+#### **Installing and running the project:**
 * Clone this repository.
 ```
 git clone git@github.com:Anesles/42-ft_printf.git
@@ -28,3 +27,5 @@ int main(void)
 ```
 cc -Wall -Wextra -Werror name_of_file.c libftprinft.a
 ```
+## Disclaimer
+> At [42School](https://en.wikipedia.org/wiki/42_(school)), almost every project must be written in accordance to the [Norm](./extras/en_norm.pdf), the schools' coding standard. As a result, the implementation of certain parts may appear strange and for sure had room for improvement.
